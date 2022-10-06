@@ -3,9 +3,11 @@ import MyList from './MyList';
 import './App.css';
 
 function App() {
+    const toDoList = ['Cooking', 'Homework', 'Laundry'];
+  
   return (
     <div>
-      <MyList />
+      <MyList items={toDoList}/>
     </div>
   );
 }
